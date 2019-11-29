@@ -63,7 +63,7 @@ vandlandet
 Water Park
 
 strandpromenaden
-view.Board Walk
+Board Walk
 
 //fieldmessages
 gåifængsel
@@ -74,7 +74,7 @@ indtastantalspillere
 Input number of players
 
 rul
-model.Roll
+Roll
 
 hartur
  has their turn.
@@ -139,7 +139,7 @@ til
 to
 
 startfeltet
-Starting model.Field
+Starting Field
 
 pris
 Price
@@ -173,3 +173,18 @@ det er nu købt!
 
 ejesaf
 Owned by:
+
+tillykkefodselsdag
+Happy birthday! Receive 1kr from each player!
+
+lavetlektier
+You've done all your homework, receive 2kr from the bank!
+
+uafgjort
+Sadly, it's a draw between
+
+og
+and
+
+duerifaengsel
+You're in jail! Your turn is skipped...

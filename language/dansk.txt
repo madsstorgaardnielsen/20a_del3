@@ -173,3 +173,18 @@ det er nu købt!
 
 ejesaf
 Ejes af:
+
+tillykkefodselsdag
+Tillykke med fødselsdagen! modtag 1 kr. fra hver spiller!
+
+lavetlektier
+Du har lavet alle dine lektier, modtag 2 kr. fra banken!
+
+uafgjort
+Det blev desværre uafgjort mellem
+
+og
+og
+
+duerifaengsel
+Du er i fængsel! Din tur springes over...

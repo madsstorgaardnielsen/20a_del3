@@ -1,8 +1,5 @@
 package model;
 
-import model.*;
-import view.*;
-import controller.*;
 import gui_main.GUI;
 
 public class Player {
@@ -11,7 +8,7 @@ public class Player {
     private String playerName;
     public int playerAge;
     public Account account;
-    String[] spillerTypeArray = new String[]{lang.textReader("hunden"), lang.textReader("katten"), lang.textReader("katten"), lang.textReader("skibet")};
+    String[] spillerTypeArray = new String[]{lang.translate("hunden"), lang.translate("katten"), lang.translate("katten"), lang.translate("skibet")};
     //public boolean goToJail = false;
 
     public Player() {
@@ -19,10 +16,10 @@ public class Player {
     }
 
     public void setPlayerName(GUI gui) {
-        playerName = gui.getUserString(lang.textReader("indtastnavn"));
+        playerName = gui.getUserString(lang.translate("indtastnavn"));
         while (playerName.length() > 25) {
-            gui.showMessage(lang.textReader("indtastunder25karakterer"));
-            playerName = gui.getUserString(lang.textReader("indtastnavn"));
+            gui.showMessage(lang.translate("indtastunder25karakterer"));
+            playerName = gui.getUserString(lang.translate("indtastnavn"));
         }
     }
 
@@ -35,11 +32,11 @@ public class Player {
     }
 
     public void setPlayerAge(GUI gui) {
-        playerAge = gui.getUserInteger(lang.textReader("indtastalder"), 5, 99);
+        playerAge = gui.getUserInteger(lang.translate("indtastalder"), 5, 99);
 
         while (playerAge < 5 || playerAge >= 99) {
-            gui.showMessage(lang.textReader("mellem5og99aar"));
-            playerAge = gui.getUserInteger(lang.textReader("indtastalder"), 5, 99);
+            gui.showMessage(lang.translate("mellem5og99aar"));
+            playerAge = gui.getUserInteger(lang.translate("indtastalder"), 5, 99);
         }
     }
 
