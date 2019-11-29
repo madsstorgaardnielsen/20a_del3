@@ -1,7 +1,4 @@
 package model;
-import model.*;
-import view.*;
-import controller.*;
 public abstract class Field {
 
     private String name;

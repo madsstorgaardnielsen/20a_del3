@@ -108,6 +108,7 @@ public class Board {
 
     //placerer og fjerner biler fra boarded
     public void carPlacement(int totalDieValue, int facevalue, int turnController) {
+
         //sørger for at der kun er 1 bil på banen pr spiller.
         int deleteCarFromField = totalDieValue - facevalue;
         for (int i = 0; i <= deleteCarFromField; i++) {

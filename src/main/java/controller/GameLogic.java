@@ -24,6 +24,7 @@ public class GameLogic {
     public void runGame() {
         numberOfPlayers = gameBoard.getNumberOfPlayers();
         turnController = gameBoard.getStarter();
+
         //Løkken der styrer spillets logik, den breaker når en spiller går bankrupt
         while (gameBoard.checkBankruptcy()) {
             for (int i = 0; i < numberOfPlayers; i++) {
@@ -31,7 +32,7 @@ public class GameLogic {
             }
 
             //virker ikke endnu...
-            checkJailBool();
+            //checkJailBool();
 
             //Placerer bilerne på start feltet.
             if (turnCounter == 0) {
@@ -140,11 +141,6 @@ public class GameLogic {
         for (int i = 0; i < numberOfPlayers; i++) {
             if (winner == gameBoard.players[i].account.getBalance()) {
                 winningPlayerName = i;
-            }
-        }
-        for (int i = 0; i < numberOfPlayers; i++) {
-            if (winner == gameBoard.players[i].account.getBalance()) {
-                return lang.translate("uafgjort") + " " + gameBoard.players[winningPlayerName].getPlayerName() + " " + lang.translate("og") + " " + gameBoard.players[i].getPlayerName();
             }
         }
         return gameBoard.players[winningPlayerName].getPlayerName() + " " + lang.translate("harvundetspilletmed") + " " + gameBoard.players[winningPlayerName].account.getBalance() + " " + lang.translate("pengeibanken");

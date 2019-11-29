@@ -1,7 +1,5 @@
 package model;
-import model.*;
-import view.*;
-import controller.*;
+
 public class Roll {
     public Die die;
 
