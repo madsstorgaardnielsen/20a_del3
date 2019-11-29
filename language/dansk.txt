@@ -1,0 +1,190 @@
+//Den første linje, og hver anden linje fremover er parametret der skal bruges i koden
+//Den anden linje, og derefter hver anden linje er strengen der returneres ved parametret ovenfor.
+
+-------------- navne på felterne-------------------
+start
+Start
+
+gadekøkkenet
+Gade-\nkøkkenet
+
+pizzahuset
+Pizzahuset
+
+chancekort
+?
+
+slikbutikken
+Slikbutikken
+
+iskiosken
+Iskiosken
+
+påbesøgfængsel
+På Besøg
+
+museet
+Museet
+
+biblioteket
+Biblioteket
+
+skaterparken
+Skaterparken
+
+swimmingpoolen
+Swimming-\npoolen
+
+gratisparkering
+Parker Her
+
+spillehallen
+Spillehallen
+
+biografen
+Biografen
+
+legetøjsbutikken
+Legetøjs-\nbutikken
+
+dyrehandlen
+Dyrehandlen
+
+fængslet
+Arresteret!
+
+bowlinghallen
+Bowlinghallen
+
+zoo
+Zoo
+
+vandlandet
+Vandlandet
+
+strandpromenaden
+Strand-\npromenaden
+
+//fieldmessages
+gåifængsel
+Gå i Fængsel
+
+//diverse
+indtastantalspillere
+Indtast antal spillere:
+
+rul
+Rul
+
+hartur
+ har deres tur.
+
+indtastnavn
+Indtast Navn:
+
+trukketchancekort
+ har trukket et chancekort!
+
+hartabtspillet
+har tabt spillet!
+
+harvundetspilletmed
+har vundet spillet med:
+
+pengeibanken
+penge i banken!
+
+indtast2til4spillere
+Indtast venligst mellem 2 og 4 spillere
+
+------model.Player-------
+
+hunden
+ (Hunden)
+
+katten
+ (Katten)
+
+bilen
+ (Bilen)
+
+skibet
+ (Skibet)
+
+indtastunder25karakterer
+Indtast venligst et navn under 25 karakterer.
+
+indtastalder
+Indtast alder:
+
+mellem5og99aar
+Du skal være mellem 5 og 99 år, for at spille Juniormatador.
+
+slog
+slog
+
+landedepaa
+landede på
+
+landedepaaegetfelt
+landede på eget felt
+
+landedepaafeltejetaf
+landede på et felt ejet af
+
+ogskalbetale
+og skal betale
+
+til
+til
+
+startfeltet
+Start Feltet
+
+pris
+Pris
+
+spændende1
+Spændende!
+
+spændende2
+Uha!
+
+spændende3
+Tør du?
+
+spændende4
+Pas på!
+
+gratisparkeringsub
+Nem Parkering
+
+chance1
+Du har spist for meget slik! Betal M2 til banken.
+
+chancekort
+Chance Card
+
+landtepåledigtfelt
+landede på et ledigt felt:
+
+nukøbt
+det er nu købt!
+
+ejesaf
+Ejes af:
+
+tillykkefodselsdag
+Tillykke med fødselsdagen! modtag 1 kr. fra hver spiller!
+
+lavetlektier
+Du har lavet alle dine lektier, modtag 2 kr. fra banken!
+
+uafgjort
+Det blev desværre uafgjort mellem
+
+og
+og
+
+duerifaengsel
+Du er i fængsel! Din tur springes over...
