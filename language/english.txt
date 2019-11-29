@@ -1,0 +1,175 @@
+//The first line, and every second line thereafter, is the string used in the code.
+//The line below this line is the string that will be displayed in the gui.
+
+------------field names -----------
+start
+Start
+
+gadekøkkenet
+Street Kitchen
+
+pizzahuset
+Pizza House
+
+chancekort
+?
+
+slikbutikken
+Candy Store
+
+iskiosken
+Ice Cream Parlor
+
+påbesøgfængsel
+Visit Jail
+
+museet
+Museum
+
+biblioteket
+Library
+
+skaterparken
+Skater Park
+
+swimmingpoolen
+Swimming Pool
+
+gratisparkering
+Free Parking
+
+spillehallen
+Video Game Arcade
+
+biografen
+Movie Theater
+
+legetøjsbutikken
+Toy Store
+
+dyrehandlen
+Pet Store
+
+fængslet
+Jail
+
+bowlinghallen
+Bowling Alley
+
+zoo
+Zoo
+
+vandlandet
+Water Park
+
+strandpromenaden
+view.Board Walk
+
+//fieldmessages
+gåifængsel
+Go to Jail
+
+//diverse
+indtastantalspillere
+Input number of players
+
+rul
+model.Roll
+
+hartur
+ has their turn.
+
+indtastnavn
+Input Name:
+
+trukketchancekort
+ has drawn a chance card!
+
+hartabtspillet
+ has lost the game!
+
+harvundetspilletmed
+ has won the game by:
+
+pengeibanken
+ money in the bank!
+
+indtast2til4spillere
+Please input between 2 and 4 players.
+
+------model.Player-------
+
+hunden
+ (Dog)
+
+katten
+ (Cat)
+
+bilen
+ (Car)
+
+skibet
+ (Ship)
+
+indtastunder25karakterer
+Please type a name under 25 characters.
+
+indtastalder
+Type your age:
+
+mellem5og99aar
+You need to be between the age of 5 and 99 to play.
+
+slog
+rolled
+
+landedepaa
+landed on
+
+landedepaaegetfelt
+landed on their own field
+
+landedepaafeltejetaf
+landed on field owned by
+
+ogskalbetale
+and pays
+
+til
+to
+
+startfeltet
+Starting model.Field
+
+pris
+Price
+
+spændende1
+Exciting!
+
+spændende2
+Huh?
+
+spændende3
+What awaits?
+
+spændende4
+A surprise?
+
+gratisparkeringsub
+Free parking!
+
+chance1
+You ate too much candy, pay M2 to the bank.
+
+chancekort
+Chance Card
+
+landtepåledigtfelt
+landede på et ledigt felt:
+
+nukøbt
+det er nu købt!
+
+ejesaf
+Owned by:
