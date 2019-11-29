@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="20a_del3:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/20a_del3_jar</output-path>
+    <root id="archive" name="20a_del3.jar">
+      <element id="module-output" name="20a_del3" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/diplomitdtu/matadorgui/3.1.6/matadorgui-3.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
