@@ -9,7 +9,7 @@ public class LanguageManager {
     int response;
     static String file;
 
-    public void selectLanguage() {
+    public void selectLanguage() { // this method initializes a box where the use can choose between danish or englis has their language
         Object[] option = {"Dansk", "English"};
         JPanel panel = new JPanel();
         panel.add(new JLabel("Choose language / Vælg sprog"));
@@ -20,14 +20,14 @@ public class LanguageManager {
                 null, option, null);
 
 
-        if (response == 0) {
+        if (response == 0) { // the language is loaded from a file, relative to the project structure.
             file = "language/dansk.txt";
         } else {
             file = "language/english.txt";
         }
     }
 
-    public String translate(String lineSearch) {
+    public String translate(String lineSearch) { // this method searches for the line in the language file
         try {
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String lineFinder;
@@ -35,8 +35,8 @@ public class LanguageManager {
             boolean lineFound = false;
             while (!lineFound) {
                 lineFinder = reader.readLine();
-                if (lineSearch.equals(lineFinder)) {
-                    returnstring = reader.readLine();
+                if (lineSearch.equals(lineFinder)) { // checks if the line is equals to the methods parameter
+                    returnstring = reader.readLine(); // returns the line under it
                     lineFound = true;
                 }
             }
